@@ -3,13 +3,32 @@
 Payments disabled
 
 Developed by InfernalToast with help from the 0xBitcoin Community
+
+
 Modded by Lucasan
+
+
+
+
+
+
+
+
 
 (GNU PUBLIC LICENSE)
 
 A pool for mining EIP918 Tokens
 
 See me running at http://tokenminingpool.com
+
+
+
+
+
+
+
+
+
 
 
 Windows GPU Miner 1
