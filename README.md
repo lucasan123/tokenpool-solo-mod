@@ -1,6 +1,9 @@
-### Token Mining Pool  
+### Token Mining Pool  modified for solo mining
+
+Payments disabled
 
 Developed by InfernalToast with help from the 0xBitcoin Community
+Modded by Lucasan
 
 (GNU PUBLIC LICENSE)
 
@@ -13,13 +16,13 @@ Windows GPU Miner 1
 https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/COSMiC-v4.1.1-MultiGPU-TMP.zip
 
 Windows GPU Miner 2
- https://github.com/mining-visualizer/MVis-tokenminer/releases
+https://github.com/mining-visualizer/MVis-tokenminer/releases
 
- Windows GPU Miner 3
- https://github.com/lwYeo/SoliditySHA3MinerUI/releases/tag/1.0.2
+Windows GPU Miner 3
+https://github.com/lwYeo/SoliditySHA3MinerUI/releases/tag/1.0.2
 
- Linux GPU Miner
- https://github.com/lwYeo/SoliditySHA3Miner/releases
+Linux GPU Miner
+https://github.com/lwYeo/SoliditySHA3Miner/releases
 
 
 
@@ -84,29 +87,6 @@ https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubunt
  - Mongo is used to store data related to miner shares, balances, and payments
 
  (WSL: sudo mongod --dbpath ~/data/db)
-
-
-
-## DEV TODO  
-1. Remove console logging and replace it with socket emissions -> show on a html frontend feed, sort by log type 
- 
- * allow for worker name (append to end of address)
- 
-2. fix hashrate chart 
-
-3. add stratum https://mvis.ca/stratum-spec.html
-
-6. *** Make sure that if a mint() gets stuck that it is cleared out !! Like  if it stuck 'Pending' for too long.  same with a payment!! *** 
-
-https://mintpond.com/b/prop-vs-pplns-vs-pps-mining-pool-reward-systems
-
-
-https://arxiv.org/pdf/1112.4980.pdf
-
-
-
- 
-
 
 
 
